@@ -1,11 +1,12 @@
 
+
+NumpadSub::
+send ^+s
+return
+
+;=======================================================
+
 Numpad1::^x
-
-Numpad0::^c
-
-NumpadDot::^v
-
-NumpadEnter::^z
 
 Numpad2::
  Send !{Tab}
@@ -15,9 +16,15 @@ Numpad3::
 send !+{Tab}
 return
 
-NumpadSub::
-send ^+s
-return
+
+;=======================================================
+
+Numpad0::^c
+
+NumpadDot::^v
+
+NumpadEnter::^z
+
 
 
 
