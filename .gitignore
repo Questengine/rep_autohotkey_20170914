@@ -1,4 +1,4 @@
  
-
+*.bak
 # Ignore the file called "DeviceName.txt"
 DeviceName.txt
