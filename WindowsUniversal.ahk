@@ -49,27 +49,27 @@ Send !{F4}
 return
 
 
-~LShift::
-if (A_PriorHotkey <> "~LShift" or A_TimeSincePriorHotkey > 444)
-{
-    ; Too much time between presses, so this isn't a double-press.
-    KeyWait, LShift
-    return
-}
-IfWinExist, Outlook
-   WinActivate
-return
-
-~RShift::
-if (A_PriorHotkey <> "~RShift" or A_TimeSincePriorHotkey > 444)
-{
-    ; Too much time between presses, so this isn't a double-press.
-    KeyWait, RShift
-    return
-}
-IfWinExist, Microsoft Visual Studio
-   WinActivate
-return
+;~LShift::
+;if (A_PriorHotkey <> "~LShift" or A_TimeSincePriorHotkey > 444)
+;{
+;    ; Too much time between presses, so this isn't a double-press.
+;    KeyWait, LShift
+;    return
+;}
+;IfWinExist, Outlook
+;   WinActivate
+;return
+;
+;~RShift::
+;if (A_PriorHotkey <> "~RShift" or A_TimeSincePriorHotkey > 444)
+;{
+;    ; Too much time between presses, so this isn't a double-press.
+;    KeyWait, RShift
+;    return
+;}
+;IfWinExist, Microsoft Visual Studio
+;   WinActivate
+;return
  
 
 
