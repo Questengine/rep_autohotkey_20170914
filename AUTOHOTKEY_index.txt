@@ -1,0 +1,69 @@
+
+KeyMouse ++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++ 
+mouse screen tile warp
+
+Expansions ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+runopensurf ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+cows ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+insert is Undo
+LAlt and m<>? is ergodox style arrowkeys
+trust commerce page is cc44
+various logins, epas, sigma, boe
+
+superclipboard ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+WindowsUniversal ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Win End gives pixel dimensions of 2 monitors
+
+ctrl alt win x close all instances of File Explorer
+LShift, activate Outlook (does not work from w/i VS) 
+RShift, activate Visual Studio
+PrintScreen, toggle win10 desktops
+Alt F, copy selected text, open find dialogue, paste text, hit enter
+Alt F3, copy selected text, open find dialogue, paste text, hit F3
+Alt B, backup (needs folders set absolutely)
+Win C, copy line, paste below
+LAlt and F1 to force LAlt as a prefix key so it can be used as a one-key paste
+
+
+VisualStudio ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+comma-period does -> for c++
+Qasd does d.l(""); 
+Qasdf does d.l("","x"); // debug log plus tag
+Qasdb does d.l("",true);// unity something
+caps1 is Home plus "//"
+caps2 is End plus "//"
+caps3 is fold code 
+square, curly    and paren bracket matching
+ctrl-enter does End
+ctrl-Qsemicolon does End and period
+ctrl-shift-a does ";"
+ctrl-space does End-space
+Qforl does foreach(  
+Qendl does braces and line between for new sub
+alt-9 after typing some function name builds braces and comments Preped for params
+alt-0 same as above but NO params
+
+alt-e, alt-i  after typing condition auto if or ifelse 
+rrr  does a try/catch with unity debug message  
+alt arrow up or down, move line
+alt-c copy line below and comment the above
+mousewheel to find references.
+
+Javascript ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+experimental++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+read/write ini
+caps and BS/DEL are alt/ctrl F4
+alt-space prompt input box for quertycolemak toggle
+
+WindowsManager +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Shift MMB minimize active window
+ctrl wheel left ctrl-F4
+alt wheel left alt-f4
+alt-win 2-4 split previous 2-4 windows across the desktop
+alt-win 5-8 move active window to corner

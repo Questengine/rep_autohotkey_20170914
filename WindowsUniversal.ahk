@@ -6,6 +6,89 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+#MaxThreadsPerHotkey 2
+
+^!#x::
+   While (WinExist("ahk_Class CabinetWClass"))
+   {  Winclose, ahk_class CabinetWClass
+      Sleep 200
+   }
+return
+
+
+;$a::
+; KeyWait,a,T0.5 ;wait 0.5 seconds for release key
+; If (ErrorLevel) ;more than 0.5 sec have passed
+; {
+;  MsgBox You pressed and released the Capslock key.
+;  KeyWait,End ;prevent sending n after notepad opened
+; }
+; Else ;less than 2 sec have passed
+; {
+;  MsgBox You prles thn two
+; }
+;Return
+
+
+#End::
+SysGet, Mon2, Monitor, 2
+MsgBox, MONONe Left: %Mon2Left% -- Top: %Mon2Top% -- Right: %Mon2Right% -- Bottom %Mon2Bottom%.
+SysGet, Mon2, Monitor, 1
+MsgBox, MONTWO Left: %Mon2Left% -- Top: %Mon2Top% -- Right: %Mon2Right% -- Bottom %Mon2Bottom%.
+return
+
+
+~End::
+if (A_PriorHotkey <> "~End" or A_TimeSincePriorHotkey > 444)
+{
+    ; Too much time between presses, so this isn't a double-press.
+    KeyWait, End
+    return
+}
+Send !{F4}
+return
+
+
+~LShift::
+if (A_PriorHotkey <> "~LShift" or A_TimeSincePriorHotkey > 444)
+{
+    ; Too much time between presses, so this isn't a double-press.
+    KeyWait, LShift
+    return
+}
+IfWinExist, Outlook
+   WinActivate
+return
+
+~RShift::
+if (A_PriorHotkey <> "~RShift" or A_TimeSincePriorHotkey > 444)
+{
+    ; Too much time between presses, so this isn't a double-press.
+    KeyWait, RShift
+    return
+}
+IfWinExist, Microsoft Visual Studio
+   WinActivate
+return
+ 
+
+
+
+
+
+
+
+
+
+PrintScreen::
+   if (toggleDesktops := !toggleDesktops) {
+
+    Send #^{Left}
+   }
+   else {
+    Send #^{Right}
+   }
+return
  
 +Backspace::Send, {Delete}
 

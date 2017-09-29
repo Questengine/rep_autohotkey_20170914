@@ -17,10 +17,7 @@ return
 Insert::
 	send ^z
 return
-
-PrintScreen::
-	send ^c
-return
+ 
 
 LAlt & m::
 	Send {Left}

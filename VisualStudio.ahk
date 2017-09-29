@@ -12,7 +12,12 @@
  send {-}{>}
 return
 
- 
+
+
+::pp::
+ send, {End } `;
+return
+
 
 ::asd::
  send d.l({"}{"}){;}
@@ -173,6 +178,7 @@ return
 	;;empty that temp clipboard variable, to free that memory (in case you had a lot of crap there)
 	varClipSaved :=  
 return 
+ 
  
 ;;function parens, braces and comments with no params
 !0:: 
@@ -445,3 +451,4 @@ return
 return
 
 
+ 

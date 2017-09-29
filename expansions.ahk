@@ -72,7 +72,9 @@ SendInput, {Enter}
 Sleep 1222
 SendInput, {Enter}
 return 
- 
+
+
+
 ::jjj::
 SendInput, %A_Hour%%A_min%%A_Sec%
 return 
