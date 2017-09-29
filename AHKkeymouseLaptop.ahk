@@ -70,17 +70,17 @@ Esc &  k::MouseMove , 1392,  650,  2
 Esc &  l::MouseMove , 1566,  650,  2
 Esc &  `;::MouseMove ,1740, 650,  2
 
-Esc &  z::MouseMove ,  174,   766,  2
-Esc &  x::MouseMove ,  348,   766,  2
-Esc &  c::MouseMove ,  522,   766,  2
-Esc &  v::MouseMove ,  696,  766,  2
-Esc &  b::MouseMove ,  870,  766,  2
+Esc &  z::MouseMove ,  174,  866,  2
+Esc &  x::MouseMove ,  348,  866,  2
+Esc &  c::MouseMove ,  522,  866,  2
+Esc &  v::MouseMove ,  696,  866,  2
+Esc &  b::MouseMove ,  870,  866,  2
   
-Esc &  n::MouseMove , 1044,  766,  2
-Esc &  m::MouseMove , 1218,  766,  2
-Esc &  ,::MouseMove , 1392,  766,  2
-Esc &  .::MouseMove , 1566,  766,  2
-Esc &  /::MouseMove , 1740,  766,  2
+Esc &  n::MouseMove , 1044,  866,  2
+Esc &  m::MouseMove , 1218,  866,  2
+Esc &  ,::MouseMove , 1392,  866,  2
+Esc &  .::MouseMove , 1566,  866,  2
+Esc &  /::MouseMove , 1740,  866,  2
 
  
 

@@ -34,53 +34,53 @@ CoordMode, Mouse, Screen
 
 
 
-Esc &  1::MouseMove , 266, 216,  2
-Esc &  2::MouseMove , 532, 216,  2
-Esc &  3::MouseMove , 798, 216,  2
-Esc &  4::MouseMove , 1064,216,  2
-Esc & 5::MouseMove , 1330, 216,  2
+Esc &  1::MouseMove ,  174, 216,  2
+Esc &  2::MouseMove ,  348, 216,  2
+Esc &  3::MouseMove ,  522, 216,  2
+Esc &  4::MouseMove ,  696,216,  2
+Esc & 5::MouseMove ,   870, 216,  2
+                      
+Esc &  6::MouseMove , 1044,216,  2
+Esc &  7::MouseMove , 1218,216,  2
+Esc &  8::MouseMove , 1392,216,  2
+Esc &  9::MouseMove , 1566,216,  2
+Esc &  0::MouseMove , 1740,216,  2
 
-Esc &  6::MouseMove , 1862,216,  2
-Esc &  7::MouseMove , 2128,216,  2
-Esc &  8::MouseMove , 2394,216,  2
-Esc &  9::MouseMove , 2660,216,  2
-Esc &  0::MouseMove , 2926,216,  2
+Esc &  q::MouseMove ,  174, 432  ,  2
+Esc &  w::MouseMove ,  348, 432  ,  2
+Esc &  e::MouseMove ,  522, 432  ,  2
+Esc &  r::MouseMove ,  696,432  ,  2
+Esc &  t::MouseMove ,  870,432  ,  2
+                      
+Esc &  y::MouseMove , 1044,432  ,  2
+Esc &  u::MouseMove , 1218,432  ,  2
+Esc &  i::MouseMove , 1392,432  ,  2
+Esc &  o::MouseMove , 1566,432  ,  2
+Esc &  p::MouseMove , 1740,432  ,  2
 
-Esc &  q::MouseMove , 266, 432  ,  2
-Esc &  w::MouseMove , 532, 432  ,  2
-Esc &  e::MouseMove , 798, 432  ,  2
-Esc &  r::MouseMove , 1064,432  ,  2
-Esc &  t::MouseMove , 1330,432  ,  2
-       
-Esc &  y::MouseMove , 1862,432  ,  2
-Esc &  u::MouseMove , 2128,432  ,  2
-Esc &  i::MouseMove , 2394,432  ,  2
-Esc &  o::MouseMove , 2660,432  ,  2
-Esc &  p::MouseMove , 2926,432  ,  2
+Esc &  a::MouseMove ,  174,  650 ,  2
+Esc &  s::MouseMove ,  348,  650 ,  2
+Esc &  d::MouseMove ,  522,  650 ,  2
+Esc &  f::MouseMove ,  696, 650 ,  2
+Esc &  g::MouseMove ,  870, 650 ,  2
+                      
+Esc &  h::MouseMove , 1044,  650,  2
+Esc &  j::MouseMove , 1218,  650,  2
+Esc &  k::MouseMove , 1392,  650,  2
+Esc &  l::MouseMove , 1566,  650,  2
+Esc &  `;::MouseMove ,1740, 650,  2
 
-Esc &  a::MouseMove , 266,  650 ,  2
-Esc &  s::MouseMove , 532,  650 ,  2
-Esc &  d::MouseMove , 798,  650 ,  2
-Esc &  f::MouseMove , 1064, 650 ,  2
-Esc &  g::MouseMove , 1330, 650 ,  2
+Esc &  z::MouseMove ,  174,   766,  2
+Esc &  x::MouseMove ,  348,   766,  2
+Esc &  c::MouseMove ,  522,   766,  2
+Esc &  v::MouseMove ,  696,  766,  2
+Esc &  b::MouseMove ,  870,  766,  2
   
-Esc &  h::MouseMove , 1862,  650,  2
-Esc &  j::MouseMove , 2128,  650,  2
-Esc &  k::MouseMove , 2394,  650,  2
-Esc &  l::MouseMove , 2660,  650,  2
-Esc &  `;::MouseMove , 2926, 650,  2
-
-Esc &  z::MouseMove , 266,   720,  2
-Esc &  x::MouseMove , 532,   720,  2
-Esc &  c::MouseMove , 798,   720,  2
-Esc &  v::MouseMove , 1064,  720,  2
-Esc &  b::MouseMove , 1330,  720,  2
-  
-Esc &  n::MouseMove , 1862,  720,  2
-Esc &  m::MouseMove , 2128,  720,  2
-Esc &  ,::MouseMove , 2394,  720,  2
-Esc &  .::MouseMove , 2660,  720,  2
-Esc &  /::MouseMove , 2926,  720,  2
+Esc &  n::MouseMove , 1044,  766,  2
+Esc &  m::MouseMove , 1218,  766,  2
+Esc &  ,::MouseMove , 1392,  766,  2
+Esc &  .::MouseMove , 1566,  766,  2
+Esc &  /::MouseMove , 1740,  766,  2
 
  
 

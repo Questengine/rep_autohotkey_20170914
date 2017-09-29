@@ -22,23 +22,7 @@ SetTitleMatchMode, 2
 SetCapsLockState, AlwaysOff
 ;;global variable gLayer
  
-
-
-Haystack =  %A_ComputerName%
-Needle =  4212
-IfInString, Haystack, %Needle%
-{
-	#Include %A_ScriptDir%\AHKkeymousePortrait.ahk 
-	return
-    
-}
-else{
-	#Include %A_ScriptDir%\AHKkeymouse.ahk 
-	return
-}
-
-
-
+#Include %A_ScriptDir%\AHKkeymouse.ahk 
 #Include %A_ScriptDir%\expansions.ahk
 #Include %A_ScriptDir%\runopensurf.ahk 
 #Include %A_ScriptDir%\WindowManager.ahk 
@@ -128,6 +112,11 @@ return
 	Sleep 2000 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
 	MsgBox,   The script could not be reloaded.  
 	 
+return
+
+;;Quit this AUTOHOTKEY script
+^!#q::
+	ExitApp 
 return
 
 

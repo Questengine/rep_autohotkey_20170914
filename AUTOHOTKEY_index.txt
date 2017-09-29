@@ -1,10 +1,16 @@
-KeyMouse ++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++
+
+KeyMouse ++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++ 
+mouse screen tile warp
 
 Expansions ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 runopensurf ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 cows ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+insert is Undo
+LAlt and m<>? is ergodox style arrowkeys
+trust commerce page is cc44
+various logins, epas, sigma, boe
 
 superclipboard ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -31,7 +37,7 @@ Qasdb does d.l("",true);// unity something
 caps1 is Home plus "//"
 caps2 is End plus "//"
 caps3 is fold code 
-square, curly and paren bracket matching
+square, curly    and paren bracket matching
 ctrl-enter does End
 ctrl-Qsemicolon does End and period
 ctrl-shift-a does ";"
@@ -50,6 +56,9 @@ mousewheel to find references.
 Javascript ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 experimental++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+read/write ini
+caps and BS/DEL are alt/ctrl F4
+alt-space prompt input box for quertycolemak toggle
 
 WindowsManager +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

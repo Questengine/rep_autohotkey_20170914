@@ -104,14 +104,17 @@ return
 return 
  
  
-
-
 ;;reload this AUTOHOTKEY script
 ^!#a::
 	Reload
 	Sleep 2000 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
 	MsgBox,   The script could not be reloaded.  
 	 
+return
+
+;;Quit this AUTOHOTKEY script
+^!#q::
+	ExitApp 
 return
 
 
