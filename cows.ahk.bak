@@ -44,7 +44,9 @@ return
 ;q.k is c.e , so typing c.eee gets my email
 :*:kkk::brandonw@cityofws.org
 :*:cc44::4111111111111111{Tab}1219{Tab}123
+:*:cwc::www.cityofws.org
 
+; _20180316 
 #n::
  Send, EngADMIN{Tab}pwd4draw{Tab}
 Sleep 444
@@ -73,43 +75,44 @@ return
 
 #1::
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}
+	Send 11086{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send 11086{Tab}{Enter}
+	Send arstarst{Tab}{Enter}
 return
 
 #2::
+	Send {End}{Shift down}{Home}{Shift up} 
+	Send 00872{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}
-	Send {End}{Shift down}{Home}{Shift up}
-	Send 00872{Tab}{Enter}
+	Send arstarst{Tab}{Enter}
 return
 
 #3::
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}
+	Send 00060{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send 00060{Tab}{Enter}
+	Send arstarst{Tab}{Enter}
 return
 
 #4::
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}
+	Send 12154{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send 12154{Tab}{Enter}
+	Send arstarst{Tab}{Enter}
 return
   
 #5::
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}
+	Send 11089{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send 11089{Tab}{Enter}
+	Send arstarst{Tab}{Enter}
 return
+
 #6::
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}
+	Send 11044{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send 11044{Tab}{Enter}
+	Send arstarst{Tab}{Enter}
 return
 
  
