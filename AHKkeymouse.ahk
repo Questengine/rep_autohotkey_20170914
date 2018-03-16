@@ -82,7 +82,7 @@ Esc &  ,::MouseMove , 2394,  720,  2
 Esc &  .::MouseMove , 2660,  720,  2
 Esc &  /::MouseMove , 2926,  720,  2
 
- 
+;   ar;
 
 
 Esc & Up::MouseMove, 0, -10, 2, R
