@@ -1,4 +1,4 @@
-﻿	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+﻿;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;	BW
@@ -32,8 +32,11 @@ SetCapsLockState, AlwaysOff
 #Include %A_ScriptDir%\VisualStudio.ahk  
 #Include %A_ScriptDir%\Javascript.ahk 
 #Include %A_ScriptDir%\experimental.ahk   
+#Include %A_ScriptDir%\spotify.ahk   
 
-
+;;NumpadSub:: Send, {Media_Play_Pause}
+NumpadSub:: Send, {Media_Prev}
+NumpadAdd::Send, {Media_Next}
  
 
 
@@ -69,7 +72,28 @@ arst
 ;+#3::FunctionAHK_ONOFF( "AHKcolemak.exe",0)
 
 
+
   
+!Space:: 
+InputBox, UserInput,  Code Ninjas Only, c-colemak q-qwerty 
+if ErrorLevel
+    MsgBox, CANCEL was pressed
+else
+    If( UserInput= "c")
+	{
+		FunctionAHK_ONOFF( "AHKcolemak.exe",1)
+	}
+    If( UserInput= "q")
+	{
+		FunctionAHK_ONOFF( "AHKcolemak.exe",0)
+	}
+return
+
+!^+x::
+	run, AHKtimer.exe
+return
+
+
  FunctionAHK_ONOFF(strProcessName,onoff){
 	if(onoff =1){
 		run,  %strProcessName%
@@ -87,10 +111,9 @@ arst
 #0::
 	process, close, AHKcolemak.exe
 	process, close, AHKnumpad.exe
-	TrayTip, ,"(((((((------------QWERTY-------------)))))))", 9999
+	TrayTip,  Notice ,"(((((((------------QWERTY-------------)))))))", 9999
 return
- 
-<!<LControl Up::AltTab 
+  
 
 #LButton::
  	Sleep, 133 
@@ -113,7 +136,9 @@ return
 return
 
 ;;Quit this AUTOHOTKEY script
-^!#q::
+^!+Down::
+	MsgBox, --QUITING BW.EXE--
+	Sleep 900
 	ExitApp 
 return
 

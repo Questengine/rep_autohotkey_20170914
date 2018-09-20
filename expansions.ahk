@@ -6,22 +6,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
  
- 
-
-:*:121::
-send 13792 {tab}
-return
-
-::000::
- Send 0{Tab}0{Tab}0{Tab}
-return
- 
-  
+       
  ;;-------------------------  CODING  --------------------------------- 
  :*:./::/*
  :*:/.::*/
-
- :*:---::_
+ 
 
 ;q.e is c.f, so typing c.fff expands to "function"
 :*:aaa::apeinteractive@yahoo.com
@@ -56,9 +45,14 @@ return
 ;q.f is c.t  so c.tx gets expanded to Thanks!
 ::fx::Thanks!    
 :*:bww::  ; This hotstring replaces "bww" with the current date and time via the commands below.
-FormatTime, CurrentDateTime,, M/d/yyyy h:mm tt  ; It will look like yyyymmdd@bw
+FormatTime, CurrentDateTime,, M/d/yyyy h:mm tt  ; It will look like yyyymmdd@bw  
 SendInput, %A_YYYY%%A_MM%%A_DD%@bw
 return
+
+F9::
+ send 11086
+ return
+
 
 :*:ggg::  ;q.g is c.d ; This hotstring replaces "ddd" with the current date and time via the commands below.
 SendInput, _%A_YYYY%%A_MM%%A_DD%
@@ -77,6 +71,10 @@ return
 
 ::jjj::
 SendInput, %A_Hour%%A_min%%A_Sec%
+return 
+
+::hhmm::
+SendInput, %A_Hour%:%A_min%
 return 
   
 ::vuv::  ;;because colemak s is keyboard ;; variable, literal , variable
@@ -123,12 +121,9 @@ return
 
  
 
-!d:: 
-Send ebug.Log{(}{" 2}{)}{;}{Home}D{End}{Left 3}
-return
 
 ::ggu:: 
-Send ebug.Log{(}{" 2}{)}{;}{Home}D{End}{Left 3}
+Send l{(}{" 2}{)}{;}{Home}d{End}{Left 3}
 return
  ;;-------------------------  UNITY  --------------------------------- 
  
@@ -136,19 +131,26 @@ return
 	Send 0{tab}0{tab}0{tab}
 return 
  
+  
 ::vv::Vector3
 ::vz::Vector3.zero
 ::vg::Vector3.Distance(){Left}
-::qqq::Quaternion   
+::qq::Quaternion   
 ::tt::gameObject  ;;because colemak g is keyboard t
-::rr::transform.position
-::ssf::transform.rotation
+
+::fra::transform.parent ;tpa
+::fud::transform.localScale ;tls
+::fsf::transform.rotation ; trt
+::frd::transform.position ; tps
+
+
 ::tcc::GetComponentInChildren<>(){Left 3}
 ::tccd::GetComponentInChildren<>(){Left 3}src
 ::tc::GetComponent<>(){Left 3}
 ::tcd::GetComponent<>(){Left 3}src
-;::uuu::transform.localScale
+
 ::llkk::IEnumerable  {(}{)}{{}{Enter}while{(}{)}{{}{Enter}return yield new WaitForFrame{(}{)}{;}{Enter}{}}{Enter}return 0;{Enter}{}}{Up 5}{End}{Left 3}
 ::ddcc::StartCoroutine{(}{"}{"}{)}{;}{Left 3}
-::fer::transform.parent 
+
+
 

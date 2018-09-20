@@ -20,9 +20,6 @@ Esc::Send {Esc}
 ;;allow Mouse Right Button to be an ampersand hotkey
 ;;RButton::Send {RButton}  
  
-^`::Send, #{m}  ;;minimize window
-NumPadEnter & NumPadAdd::Send, #{m};;minimize window
-
 
 
 
@@ -56,13 +53,6 @@ CapsLock & r::Run G:\SpecialtyApplicationDevelopment\StatusReports\WeeklyStatusR
 CapsLock & t::Run C:\Users\brandonw\Desktop\Extra\keynote\keynote.exe
 CapsLock & g::Run C:\Users\brandonw\Desktop\Extra\wscite\SciTE.exe
 CapsLock & a::Run C:\Windows\System32\notepad.exe
-
-CapsLock & z::
-	TrayTip, Timer Started, 20 Minutes, 1
-	Sleep 1000*60*20
-	MsgBox,  Timer 20 Expired
-	
-return
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -131,11 +121,19 @@ CapsLock & h::Send, +{=}
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 
 ` & 1::Run http://portfolio/niku/nu
-` & 2::Run http://pwinvwebsvc01/EPASADMIN/
-` & 3::Run https://www6.cityofws.org/EPAS/LoginAD.aspx
-` & 4::Run https://www.cwsonline.org/wpr2012/test.aspx?user=bw&code=yyyymmdd
+` & 2::Run https://www6.cityofws.org/EPASADMIN/
+` & 3::Run https://www6.cityofws.org/EPAS2018/LoginAD.aspx
+` & 4::Run https://wpr.cityofws.org/test.aspx?user=bw&code=yyyymmdd
 ` & 5::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://appman/
 ` & 6::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://opennew/
 
 ` & q::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://releaserequest/
+` & e::Run https://www.evernote.com/Login.action;;min
+` & t::Run https://www.twitter.com
+` & f::Run http://www.myfitnesspal.com
+` & y::Run http://mail.yahoo.com
+` & p::Run http://www.penny-arcade.com
+` & `;::Run http://www.google.com 
+ 
+ 
  

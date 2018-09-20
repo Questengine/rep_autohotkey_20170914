@@ -1,26 +1,53 @@
 ﻿;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
-;;-------------------------TEXT REPLACEMENT--------------------------------- 
+;;-------------------------TEXT REPLACEMENT---------------------------------
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
+Menu,Tray, Icon, unreal.ico
 
-;:*:bbw::brandonw 
 
+Esc & Enter::
+	Reload
+	Menu,Tray, Icon, Shell32.dll, 174
+
+return
+
+
+
+
+
+
+
+
+
+;:*:bbw::brandonw
+
+:*:,,::
+	send ::
+return
 
 :*:irs:: ;;upr UPROPERTY()
  Send, UPROPERTY()
  Send , {Left}
 return
 
+
+:*:ik:: ;;ue Unreal  Engine
+ Send, Unreal Engine
+return
+
+
+
+
 :*:fhd:: ;;ths this->
 	send this->
 return
 
-;:*:caf= 
+;:*:caf=
 ;	Send, Category = ""
 ;return
 
@@ -52,6 +79,13 @@ return
 	Send TArray<>{Left}
 return
 
+:?*:crf::
+	send Component
+return
+
+:*:cj::
+	send const
+return
 
 
 

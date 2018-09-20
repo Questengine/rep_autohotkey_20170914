@@ -6,12 +6,20 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+  
+::cmad::   ;c.cmas = C_onfi M_anager A_pp S_etting
+send, ConfigurationManager.AppSettings(""){Left 2}
+return
+
+::wcn::  ; c.wck = W_eb C_onfig K_ey
+ send, <add key="" value =""/>{Left 3}
+return
+ 
  
 
 :?*:,.::
  send {-}{>}
 return
-
 
 
 ::pp::

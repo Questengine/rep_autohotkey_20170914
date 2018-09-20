@@ -1,8 +1,17 @@
+ bw.ahk ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+alt-space prompt input box for quertycolemak toggle
+
+timer.ahk, 
+msgbox for timer start, tray icon flash
 
 KeyMouse ++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++ 
 mouse screen tile warp
+keys for click, double-click and right-click
 
 Expansions ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+keyboard jjj colemak nnn is for NOW, will concatenate HHMMSS time like  10:23:59 will be 102359
 
 runopensurf ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -10,7 +19,7 @@ cows ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 insert is Undo
 LAlt and m<>? is ergodox style arrowkeys
 trust commerce page is cc44
-various logins, epas, sigma, boe
+various logins, epas, sigma,
 
 superclipboard ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -19,14 +28,13 @@ WindowsUniversal ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Win End gives pixel dimensions of 2 monitors
 
 ctrl alt win x close all instances of File Explorer
-LShift, activate Outlook (does not work from w/i VS) 
-RShift, activate Visual Studio
 PrintScreen, toggle win10 desktops
 Alt F, copy selected text, open find dialogue, paste text, hit enter
 Alt F3, copy selected text, open find dialogue, paste text, hit F3
 Alt B, backup (needs folders set absolutely)
 Win C, copy line, paste below
 LAlt and F1 to force LAlt as a prefix key so it can be used as a one-key paste
+Double-tap END does alt-F4
 
 
 VisualStudio ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -54,11 +62,12 @@ alt-c copy line below and comment the above
 mousewheel to find references.
 
 Javascript ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+JQuery expansions
+ctrl-shift numpadsub = html comment block
 
 experimental++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 read/write ini
 caps and BS/DEL are alt/ctrl F4
-alt-space prompt input box for quertycolemak toggle
 
 WindowsManager +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

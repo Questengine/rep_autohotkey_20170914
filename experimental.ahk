@@ -112,21 +112,6 @@ return
  
 
   
-  
-!Space:: 
-InputBox, UserInput,  Code Ninjas Only, c-colemak q-qwerty 
-if ErrorLevel
-    MsgBox, CANCEL was pressed
-else
-    If( UserInput= "c")
-	{
-		FunctionAHK_ONOFF( "AHKcolemak.exe",1)
-	}
-    If( UserInput= "q")
-	{
-		FunctionAHK_ONOFF( "AHKcolemak.exe",0)
-	}
-return
 
 
 !^#n::
