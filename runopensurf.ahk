@@ -53,6 +53,7 @@ CapsLock & r::Run G:\SpecialtyApplicationDevelopment\StatusReports\WeeklyStatusR
 CapsLock & t::Run C:\Users\brandonw\Desktop\Extra\keynote\keynote.exe
 CapsLock & g::Run C:\Users\brandonw\Desktop\Extra\wscite\SciTE.exe
 CapsLock & a::Run C:\Windows\System32\notepad.exe
+CapsLock & s::Run C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -71,6 +72,7 @@ CapsLock & a::Run C:\Windows\System32\notepad.exe
 CapsLock & 7::Run explore C:\inetpub\wwwroot 
 CapsLock & 8::Run explore H:\
 CapsLock & 0::Run explore C:\Users\brandonw\Desktop\Delete Anything here older than 2 weeks
+CapsLock & c::Run http://www.google.com 
 
 CapsLock & u::Send, 7
 CapsLock & i::Send, 8
@@ -131,6 +133,8 @@ CapsLock & h::Send, +{=}
 ` & e::Run https://www.evernote.com/Login.action;;min
 ` & t::Run https://www.twitter.com
 ` & f::Run http://www.myfitnesspal.com
+` & c::Run http://www.cnn.com
+` & r::Run http://www.reddit.com
 ` & y::Run http://mail.yahoo.com
 ` & p::Run http://www.penny-arcade.com
 ` & `;::Run http://www.google.com 
