@@ -33,7 +33,7 @@
     Send {<}{!}--  --{>} {Left 5}
 return
 :://a::
-SendInput, // 
+SendInput, //   
 return
 ::uiiu::/**/ ;; because luul is positioned above my index and middle finger to make this easy
 :*:rrr::password
@@ -75,6 +75,10 @@ return
 
 ::hhmm::
 SendInput, %A_Hour%:%A_min%
+return 
+
+::hm::
+SendInput, %A_Hour%%A_min%
 return 
   
 ::vuv::  ;;because colemak s is keyboard ;; variable, literal , variable

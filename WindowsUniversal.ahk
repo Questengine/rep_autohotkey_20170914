@@ -85,13 +85,13 @@ F1 & h::
    WinActivate
 return
 
-::NumpadUp::
+^!#+Home::
    IfWinExist, Outlook
    WinActivate
 return
 
 
-::NumpadHome::
+^!#+End::
 IfWinExist, Microsoft Visual Studio
    WinActivate
 return
@@ -122,17 +122,6 @@ return
 
  
  
- 
-NumpadDiv::
-IfWinExist, Outlook
-   WinActivate
-return
- 
- 
-NumpadMult::
-IfWinExist, Visual Studio
-   WinActivate
-return
  
 
 F1 & Space::
@@ -182,11 +171,7 @@ return
    Send {F3}
 
 return 
-!b::
-
-	FileCopyDir C:\Users\brandonw\Desktop\Extra\bw,C:\Users\brandonw\Desktop\Extra\bw_%A_YYYY%%A_MM%%A_DD%
-return
-
+ 
 
 ;Esc & Up::
 ;	Send {Volume_Up}
@@ -225,9 +210,9 @@ return
 
 LAlt & F1::return  ; Make left-Alt a prefix by using it in front of "&" at least once.
 ;;such that LALT, by itself, becomes an unmodified Paste button
-LAlt::
-	Send {Ctrl Down} {v}{Ctrl Up} 
-return
+;;LAlt::
+;;	Send {Ctrl Down} {v}{Ctrl Up} 
+;;return
 
 
 

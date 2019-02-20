@@ -55,6 +55,8 @@ CapsLock & g::Run C:\Users\brandonw\Desktop\Extra\wscite\SciTE.exe
 CapsLock & a::Run C:\Windows\System32\notepad.exe
 CapsLock & s::Run C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 
+CapsLock & d:: Run C:\Program Files\Notepad++\notepad++.exe ;;because c.s is q.dt
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -104,7 +106,7 @@ CapsLock & h::Send, +{=}
  
 ;;CapsLock & a open C:\Users\brandonw\Desktop\Extra\AutoHotKey\bw
 ;;CapsLock & x open C:\Users\brandonw\Desktop\Extra
-;;CapsLock & w open C:\inetpub\wwwroot
+;;CapsLock & w open C:\^!#+g::Run \wwwroot
 ;;CapsLock & e open C:\inetpub\wwwroot\EPAS2012
 ;;CapsLock & h open H:\
 ;;CapsLock & b open B:\
@@ -113,31 +115,31 @@ CapsLock & h::Send, +{=}
 												
 
 												
- 
+  
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;
+;;j
 ;;	SURF THIS WEBSITE
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 
-` & 1::Run http://portfolio/niku/nu
-` & 2::Run https://www6.cityofws.org/EPASADMIN/
-` & 3::Run https://www6.cityofws.org/EPAS2018/LoginAD.aspx
-` & 4::Run https://wpr.cityofws.org/test.aspx?user=bw&code=yyyymmdd
-` & 5::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://appman/
-` & 6::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://opennew/
+^!#+1::Run http://portfolio/niku/nu
+^!#+2::Run https://www6.cityofws.org/EPASADMIN/
+^!#+3::Run https://www6.cityofws.org/EPAS2018/LoginAD.aspx
+^!#+4::Run https://wpr.cityofws.org/test.aspx?user=bw&code=yyyymmdd
+^!#+5::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://appman/
+^!#+6::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://opennew/
 
-` & q::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://releaserequest/
-` & e::Run https://www.evernote.com/Login.action;;min
-` & t::Run https://www.twitter.com
-` & f::Run http://www.myfitnesspal.com
-` & c::Run http://www.cnn.com
-` & r::Run http://www.reddit.com
-` & y::Run http://mail.yahoo.com
-` & p::Run http://www.penny-arcade.com
-` & `;::Run http://www.google.com 
- 
+^!#+q::Run C:\Program Files\Internet Explorer\IEXPLORE.EXE http://releaserequest/
+^!#+e::Run https://www.evernote.com/Login.action;;min
+^!#+t::Run https://www.twitter.com
+^!#+f::Run http://www.myfitnesspal.com
+^!#+c::Run http://www.cnn.com
+^!#+r::Run http://www.reddit.com
+^!#+y::Run http://mail.yahoo.com
+^!#+p::Run http://www.penny-arcade.com
+^!#+g::Run http://www.google.com 
+^!#+w::Run https://www.wxii12.com/weather
  
  

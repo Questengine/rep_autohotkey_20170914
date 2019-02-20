@@ -64,6 +64,29 @@ return
 	Send {Shift down}{Ctrl down}{f5}{Shift up}{Ctrl up}
 return
 
+
+
+CapsLock & 9::
+	Send, !Left{(}
+	Send, !Right{)}
+return
+
+CapsLock & '::
+	Send, !Left{"}
+	Send, !Right{"}
+return
+
+CapsLock & [::
+	Send, !Left{[}!Right{]}
+return
+  
+ 
++^!#9::
+	Send, {(}
+return
++^!#[::
+	Send, {{}
+return
   
  
 $[::

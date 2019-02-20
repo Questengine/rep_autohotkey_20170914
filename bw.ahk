@@ -7,6 +7,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
+
+
 ;; rep-name first change
 ;; test _@0170914
 
@@ -22,7 +24,9 @@ SetTitleMatchMode, 2
 SetCapsLockState, AlwaysOff
 ;;global variable gLayer
  
-#Include %A_ScriptDir%\AHKkeymouse.ahk 
+  
+ 
+;;#Include %A_ScriptDir%\AHKkeymouse.ahk 
 #Include %A_ScriptDir%\expansions.ahk
 #Include %A_ScriptDir%\runopensurf.ahk 
 #Include %A_ScriptDir%\WindowManager.ahk 
@@ -32,12 +36,7 @@ SetCapsLockState, AlwaysOff
 #Include %A_ScriptDir%\VisualStudio.ahk  
 #Include %A_ScriptDir%\Javascript.ahk 
 #Include %A_ScriptDir%\experimental.ahk   
-#Include %A_ScriptDir%\spotify.ahk   
-
-;;NumpadSub:: Send, {Media_Play_Pause}
-NumpadSub:: Send, {Media_Prev}
-NumpadAdd::Send, {Media_Next}
- 
+#Include %A_ScriptDir%\sweet16.ahk     
 
 
 ;#Include %A_ScriptDir%\AHKnumpad.ahk 

@@ -114,7 +114,7 @@ return
 	Send {End}{Shift down}{Home}{Shift up}
 	Send 11044{Tab}
 	Send {End}{Shift down}{Home}{Shift up}
-	Send arstarst{Tab}{Enter}
+	Send bh11044{Tab}{Enter}
 return
 
  

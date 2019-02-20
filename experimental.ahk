@@ -111,8 +111,6 @@ return
 return 
  
 
-  
-
 
 !^#n::
 WinGetTitle, strTitle, A

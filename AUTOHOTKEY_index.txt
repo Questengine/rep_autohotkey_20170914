@@ -1,17 +1,25 @@
- bw.ahk ++++++++++++++++++++++++++++++++++++++++++++++++++
+bw.ahk ++++++++++++++++++++++++++++++++++++++++++++++++++
  
-alt-space prompt input box for quertycolemak toggle
+alt-space prompt input box for qwertycolemak toggle
+capslock always off
+numpad spotify shortcuts for media
 
-timer.ahk, 
-msgbox for timer start, tray icon flash
-
+ctrl alt win a, reload self
+ctrl alt shift down arrow, quit bw.ahk
+win z, are these apps currently running.
+	
 KeyMouse ++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++ 
 mouse screen tile warp
-keys for click, double-click and right-click
+
+keys for click, double-click and right-click Esc and backtick plus jkl; and arrow keys
+keys for mouse down (not a full click) Esc and backtick plus F1 and F2
 
 Expansions ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 keyboard jjj colemak nnn is for NOW, will concatenate HHMMSS time like  10:23:59 will be 102359
+
+time output:  hhmm hm nnn
+string concat in c#
 
 runopensurf ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -38,24 +46,26 @@ Double-tap END does alt-F4
 
 
 VisualStudio ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+c.cmas  expands to ConfigurationManager.AppSettings("^")
+c.wck expands to <add key="" value ="^"/>
 comma-period does -> for c++
-Qasd does d.l(""); 
-Qasdf does d.l("","x"); // debug log plus tag
-Qasdb does d.l("",true);// unity something
+asd does d.l(""); 
+asdf does d.l("","x"); // debug log plus tag
+asdb does d.l("",true);// unity something
 caps1 is Home plus "//"
 caps2 is End plus "//"
-caps3 is fold code 
+caps3 is fold code
 square, curly    and paren bracket matching
 ctrl-enter does End
-ctrl-Qsemicolon does End and period
+ctrl-semicolon does End and period
 ctrl-shift-a does ";"
 ctrl-space does End-space
-Qforl does foreach(  
-Qendl does braces and line between for new sub
+forl does foreach(  
+endl does braces and line between for new sub
 alt-9 after typing some function name builds braces and comments Preped for params
 alt-0 same as above but NO params
 
-alt-e, alt-i  after typing condition auto if or ifelse 
+alt-e, alt-i  after typing condition,DT:DOT, auto if or ifelse 
 rrr  does a try/catch with unity debug message  
 alt arrow up or down, move line
 alt-c copy line below and comment the above
@@ -76,3 +86,13 @@ ctrl wheel left ctrl-F4
 alt wheel left alt-f4
 alt-win 2-4 split previous 2-4 windows across the desktop
 alt-win 5-8 move active window to corner
+
+=
+=
+=
+=
+=
+
+
+timer.ahk,  +++++++++++++++++++++++++++++++++++++++++++++++++++++
+msgbox for timer start, tray icon flash
